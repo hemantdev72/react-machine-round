@@ -9,6 +9,9 @@ import Validation from './components/Validation'
 import Modal from './components/Modal'
 import Drag from './components/Drag'
 import Faq from './components/Faq'
+import Light from './components/Light'
+import FileExplorer from './components/FileExplorer'
+import data from './data.json'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -21,7 +24,9 @@ function App() {
     {/* <Timer /> */}
     {/* <Validation /> */}
     {/* <Drag /> */}
-    <Faq />
+    {/* <Faq /> */}
+    {/* <Light /> */}
+    <FileExplorer data={data} />
    {/* <div><Modal open={open} setOpen={setOpen} />
     <button onClick={()=>{setOpen(true)}}>Open</button></div> */}
 
