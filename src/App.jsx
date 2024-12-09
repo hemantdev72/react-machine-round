@@ -12,6 +12,7 @@ import Faq from './components/Faq'
 import Light from './components/Light'
 import FileExplorer from './components/FileExplorer'
 import data from './data.json'
+import MemoryGame from './components/MemoryGame'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -26,7 +27,8 @@ function App() {
     {/* <Drag /> */}
     {/* <Faq /> */}
     {/* <Light /> */}
-    <FileExplorer data={data} />
+    {/* <FileExplorer data={data} /> */}
+    <MemoryGame />
    {/* <div><Modal open={open} setOpen={setOpen} />
     <button onClick={()=>{setOpen(true)}}>Open</button></div> */}
 
