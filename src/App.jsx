@@ -14,6 +14,7 @@ import FileExplorer from './components/FileExplorer'
 import data from './data.json'
 import MemoryGame from './components/MemoryGame'
 import ProgressBar from './components/ProgressBar'
+import StarRating from './components/StarRating'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -30,7 +31,8 @@ function App() {
     {/* <Light /> */}
     {/* <FileExplorer data={data} /> */}
     {/* <MemoryGame /> */}
-    <ProgressBar />
+    {/* <ProgressBar /> */}
+    <StarRating />
    {/* <div><Modal open={open} setOpen={setOpen} />
     <button onClick={()=>{setOpen(true)}}>Open</button></div> */}
 
