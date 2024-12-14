@@ -15,6 +15,9 @@ import data from './data.json'
 import MemoryGame from './components/MemoryGame'
 import ProgressBar from './components/ProgressBar'
 import StarRating from './components/StarRating'
+import Slider from './components/Slider'
+import InfiniteScroll from './components/InfiniteScroll'
+import Otp from './components/Otp'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -32,7 +35,10 @@ function App() {
     {/* <FileExplorer data={data} /> */}
     {/* <MemoryGame /> */}
     {/* <ProgressBar /> */}
-    <StarRating />
+    {/* <StarRating /> */}
+    {/* <Slider /> */}
+    {/* <InfiniteScroll /> */}
+    <Otp />
    {/* <div><Modal open={open} setOpen={setOpen} />
     <button onClick={()=>{setOpen(true)}}>Open</button></div> */}
 
